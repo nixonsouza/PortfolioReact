@@ -1,0 +1,14 @@
+.projects{
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.projects h1{
+    font-size: 50px;
+}
+
+.projects #btnB button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

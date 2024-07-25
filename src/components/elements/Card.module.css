@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card section{
+    background: rgba(1, 9, 28, 0.75);
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 20px;
+    width: 500px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+.card h3{
+    font-size: 40px;
+}
