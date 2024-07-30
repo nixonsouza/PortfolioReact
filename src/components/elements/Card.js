@@ -12,7 +12,7 @@ function Card({img, title, tech, description, rep, site}){
     }
     return(
         <div onMouseLeave={InfoOff} className={styles.card}>
-            <a onMouseEnter={InfoOn} href={site}>
+            <a onMouseEnter={InfoOn} onMouseLeave={InfoOff} href={site}>
                 <img src={img}/>
             </a>
 

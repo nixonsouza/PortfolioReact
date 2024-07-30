@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    margin-bottom: 100px;
 }
 
 .projects h1{
