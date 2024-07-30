@@ -1,4 +1,6 @@
 .projects{
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     margin-left: 10%;
 }
@@ -7,8 +9,7 @@
     font-size: 50px;
 }
 
-.projects #btnB button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#btnB button{
+    display: block;
+    margin: 0 auto;
 }

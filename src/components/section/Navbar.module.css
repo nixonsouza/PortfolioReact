@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 1em;
     margin-left: 40px;
-   margin-right: 5%;
+    margin-right: 5%;
 }
 .navbar ul{
     display: flex;
@@ -13,6 +13,7 @@
 }
 
 .navbar li{
+    cursor: pointer;
     font-weight: 300;
     line-height: 24.2px;
     font-size: 20px;
@@ -26,6 +27,7 @@
 }
 
 .navbar a{
+    text-decoration: underline;
     text-underline-offset: 5px;
     color: aliceblue !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
